@@ -1,0 +1,6 @@
+counter=0
+country_list=[]
+for i in countries:
+    if "land" in i: 
+        country_list.append(i)
+print(country_list)
